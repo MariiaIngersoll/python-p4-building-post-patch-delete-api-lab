@@ -16,7 +16,7 @@ db.init_app(app)
 
 @app.route('/')
 def home():
-    return '<h1>Bakery GET-POST-PATCH-DELETE API..</h1>'
+    return '<h1>Bakery GET-POST-PATCH-DELETE API...</h1>'
 
 @app.route('/bakeries')
 def bakeries():
